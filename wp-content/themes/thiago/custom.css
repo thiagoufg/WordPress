@@ -1,0 +1,123 @@
+.widget li:before{
+	content: '';
+	width: 0px;
+	height: 0px;
+	background: #e9e9e9;
+	float: left;
+	position: absolute;
+	margin-top: 11px;
+	left: 0;
+}
+.content-left-wrap{
+	padding-top: 0px;
+}
+.sidebar-wrap.content-left-wrap{
+	margin-top: 0px;
+	padding-top: 0;
+}
+.entry-title{
+	font-size: 20px;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+@media (max-width: 767px) {
+	.menu-align-center .responsive-logo > a {
+		float: left;
+		max-width: 60vw;
+	}
+}
+img
+	{
+		max-width: 100vw;	
+	}
+.header-content-wrap {
+	background: rgba(0, 0, 0, 0);
+	position: relative;
+	-webkit-box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
+	box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
+	padding: 285px 0 210px;
+	bottom:0px;
+}
+.focus-box .service-icon .pixeden  {
+	border-radius: 50%;
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	filter: grayscale(100%);
+}
+@media (max-width: 767px) {
+
+	#main-nav.fixed {
+		position: fixed;
+	}
+	
+	table
+	{
+		white-space: nowrap;
+	}
+	
+	.table-container:before
+	{
+		content: "<<< role para os lados >>>";
+	}
+	.table-container:after 
+	{
+		content: "<<< role para os lados >>>";
+	}
+	
+	img
+	{
+		width: 100%;
+	}
+}
+.invisivel
+{
+	display:none;
+}
+
+.ancora
+{
+	display: block;
+	height: 80px; /*same height as header*/
+	margin-top: -80px; /*same height as header*/
+	visibility: hidden;
+}
+
+.table-container
+{
+	width: 100%;
+	overflow-y: auto;
+	_overflow: auto;
+	margin: 0 0 1em;
+	text-align: center;
+	color: red;
+}
+
+.table-container > table
+{
+	color:black;
+}
+
+.table-container-outer { position: relative; }
+
+.table-container-fade
+{
+	position: absolute;
+	right: 0;
+	width: 30px;
+	height: 100%;
+	background-image: -webkit-linear-gradient(0deg, rgba(255,255,255,.5), #fff);
+	background-image: -moz-linear-gradient(0deg, rgba(255,255,255,.5), #fff);
+	background-image: -ms-linear-gradient(0deg, rgba(255,255,255,.5), #fff);
+	background-image: -o-linear-gradient(0deg, rgba(255,255,255,.5), #fff);
+	background-image: linear-gradient(0deg, rgba(255,255,255,.5), #fff);
+}
+
+.client-name
+{
+	font-family: arial;
+	font-weight: bold;
+}
+
+/* fixes compatibility with download manager plugin where drop down menu collapses all the time */
+nav#site-navigation.in {
+	height: auto !important;
+}
